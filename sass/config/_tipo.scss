@@ -1,0 +1,24 @@
+/*fuentes*/
+.scope-one-regular {
+    font-family: "Scope One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-mono{
+    font-family: "Roboto Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin fontrelevance($fontchange, $deco){
+    font-weight: $fontchange;
+    text-decoration: $deco;
+}
+h1{
+    @include fontrelevance(bold, none);
+}
+h2{
+    @include fontrelevance(bold, underline);
+}
+p{
+    @include fontrelevance(initial, solid);
+}

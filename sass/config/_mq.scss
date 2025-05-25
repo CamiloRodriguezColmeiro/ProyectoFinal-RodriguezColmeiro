@@ -1,0 +1,21 @@
+/*Adaptar las imagenes a distintos dispositivos*/
+.menu{
+    height: 200px;
+}
+.altura{
+    width: 350px;
+}
+#exampleFormControlTextarea1{
+    height: 200px;
+}
+@media (min-width: 1200px) {
+    .menu{
+        height: 350px;
+    }
+    .altura{
+        width: 450px;
+    }
+    #exampleFormControlTextarea1{
+        height: 320px;
+    }
+}

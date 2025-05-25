@@ -1,0 +1,62 @@
+{
+    "burgas": [
+      {
+        "nombre": "Hamburguesa de Cheddar y Bacon Simple",
+        "precio": 6000,
+        "imagen": "../multimedia/menu/CheddarBacon.jpg",
+        "id": 1
+      },
+      {
+        "nombre": "Hamburguesa de Cheddar y Bacon Doble",
+        "precio": 7200,
+        "imagen": "../multimedia/menu/DobleCheddarBacon.jpg",
+        "id": 2
+      },
+      {
+        "nombre": "Hamburguesa de Cheddar y Bacon Triple",
+        "precio": 8400,
+        "imagen": "../multimedia/menu/TripleCheddarBacon.jpg",
+        "id": 3
+      }
+    ],
+    "papas": [
+      {
+        "nombre": "Papas Fritas",
+        "precio": 2000,
+        "imagen": "../multimedia/menu/PapasNormales.jpg",
+        "id": 4
+      },
+      {
+        "nombre": "Papas Fritas con Cheddar y Bacon",
+        "precio": 3000,
+        "imagen": "../multimedia/menu/PapasCheddarBacon.jpg",
+        "id": 5
+      },
+      {
+        "nombre": "Papas Fritas con Salsa BBQ",
+        "precio": 3500,
+        "imagen": "../multimedia/menu/PapasSalsaBBQ.jpg",
+        "id": 6
+      }
+    ],
+    "bebidas": [
+      {
+        "nombre": "Pepsi",
+        "precio": 1500,
+        "imagen": "../multimedia/menu/Pepsi.jpg",
+        "id": 7
+      },
+      {
+        "nombre": "Sprite",
+        "precio": 1500,
+        "imagen": "../multimedia/menu/Limon.jpg",
+        "id": 8
+      },
+      {
+        "nombre": "Fanta",
+        "precio": 1500,
+        "imagen": "../multimedia/menu/naranja.jpg",
+        "id": 9
+      }
+    ]
+  }

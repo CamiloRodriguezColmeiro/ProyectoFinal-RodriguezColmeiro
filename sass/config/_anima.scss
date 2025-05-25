@@ -1,0 +1,34 @@
+/*Animaciones de deslizamiento*/
+.animar{
+    animation-duration: 3s;
+    animation-name: slideinr;
+  }
+  
+  @keyframes slideinr {
+    from {
+      transform: translateX(100%);
+      width: 300%;
+    }
+  
+    to {
+      transform: translateX(0%);
+      width: 100%;
+    }
+  }
+
+.animal{
+    animation-duration: 3s;
+    animation-name: slideinl;
+  }
+  
+  @keyframes slideinl {
+    from {
+      transform: translateX(-100%);
+      width: 300%;
+    }
+  
+    to {
+      transform: translateX(0%);
+      width: 100%;
+    }
+  }

@@ -1,0 +1,9 @@
+
+$colors: darkgoldenrod, brown;
+
+/*Colores a usar de fondo*/
+ @each $color in $colors{
+    .bgd-#{$color}{
+        background-color: $color;
+    }
+ }
